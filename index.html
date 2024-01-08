@@ -1,12 +1,15 @@
-<!DOCTYPE html> <html lang="eng">
-<html>
-<head>
-    <title> Solar System (Group 5) </title>
-    <link rel="stylesheet" href="./style.css">
+<!DOCTYPE html>
+<html lang="eng">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=" width-device-with, inital-scale-1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Solar System</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&family=Luckiest+Guy&family=Roboto&display=swap" rel="stylesheet">
-  
+</head>
+<header>
     <div class="header">
       <img src="icon.png" id="logo"/>
     </div>
@@ -16,116 +19,172 @@
     <div class="containerSlogan">
       <p>Learn more about our neighbouring planets</p>
     </div>
-  </head>
+</header>
 
-<body>
+ <body>
+
+     <div class="modal" id="modal1">
+        <div class="header">
+            <div class="title">Mercury - <i>The Swift Planet</i></div>
+            <button class="btn modal-btn" data-target="#modal1">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
+    
+     <div class="modal" id="modal2">
+        <div class="header">
+            <div class="title">Venus - <i> Morning and Evening Star </i></div>
+            <button class="btn modal-btn" data-target="#modal2">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
+
+     <div class="modal" id="modal3">
+        <div class="header">
+            <div class="title">Earth - <i> The Blue Planet </i></div>
+            <button class="btn modal-btn" data-target="#modal3">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
   
+     <div class="modal" id="modal4">
+        <div class="header">
+            <div class="title">Mars - <i> The Red Planet </i></div>
+            <button class="btn modal-btn" data-target="#modal4">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
+ 
+     <div class="modal" id="modal5">
+        <div class="header">
+            <div class="title">Jupiter - <i> The Gas Giant</i></div>
+            <button class="btn modal-btn" data-target="#modal5">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
 
-  <script src="script.js"></script>
-   <!-- Bootstrap CSS -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  
-   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-    <div class="carousel-indicators">
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>   
-         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 1"></button>
-            </div>
-     <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="Mercury.png"d-block w-100 alt="...">
-                  <div id="Mercury" class="carousel-caption d-none d-md-block">
-                    <h4>Mercury</h4>
-                     <!-- change button to hyperlink later-->
-                    <button id = 'myButton' onclick="buttonAlert()">More → </button>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="Venus.png"d-block w-100 alt="...">
-                <div id="venus-info" class="carousel-caption d-none d-md-block">
-                    <h4>Venus</h4>
-                     <!-- change button to hyperlink later-->
-                     <button id = 'myButton' onclick="buttonAlert()">More → </button>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="Earth.png"d-block w-100 alt="...">
-                  <div id="earth-info" class="carousel-caption d-none d-md-block">
-                    <h4>Earth</h4>
-                     <!-- change button to hyperlink later-->
-                   <button id = 'myButton' onclick="buttonAlert()">More → </button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="Mars.png"d-block w-100 alt="...">
-                <div id="Mars" class="carousel-caption d-none d-md-block">
-                  <h4>Mars</h4>
-                   <!-- change button to hyperlink later-->
-                 <button id = 'myButton' onclick="buttonAlert()">More → </button>
-                  </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Jupiter.png"d-block w-100 alt="...">
-                <div id="Jupiter" class="carousel-caption d-none d-md-block">
-                  <h4>Jupiter</h4>
-                   <!-- change button to hyperlink later-->
-                 <button id = 'myButton' onclick="buttonAlert()">More → </button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Saturn.png"d-block w-100 alt="...">
-                <div id="Saturn" class="carousel-caption d-none d-md-block">
-                  <h4>Saturn</h4>
-                   <!-- change button to hyperlink later-->
-                 <button id = 'myButton' onclick="buttonAlert()">More → </button>
-              </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Uranus.png"d-block w-100 alt="...">
-                <div id="Uranus" class="carousel-caption d-none d-md-block">
-                  <h4>Uranus</h4>
-                   <!-- change button to hyperlink later-->
-                 <button id = 'myButton' onclick="buttonAlert()">More → </button>
-              </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Neptune.png"d-block w-100 alt="...">
-                <div id="Neptune" class="carousel-caption d-none d-md-block">
-                  <h4>Neptune</h4>
-                   <!-- change button to hyperlink later-->
-                 <button id = 'myButton' onclick="buttonAlert()">More → </button>
-              </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Pluto.png"d-block w-100 alt="...">
-                <div id="pluto-info" class="carousel-caption d-none d-md-block">
-                  <h4>Pluto</h4>
-                   <!-- change button to hyperlink later-->
-                 <button id = 'myButton' onclick="buttonAlert()">More → </button>
-              </div>
-            </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-  ​<script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     <div class="modal" id="modal6">
+        <div class="header">
+            <div class="title">Saturn - <i> The Ringed Planet </i></div>
+            <button class="btn modal-btn" data-target="#modal6">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
 
-</body>
+     <div class="modal" id="modal7">
+        <div class="header">
+            <div class="title">Uranus - <i> The Bull's Eye </i></div>
+            <button class="btn modal-btn" data-target="#modal3">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
+  
+     <div class="modal" id="modal8">
+        <div class="header">
+            <div class="title">Neptune - <i> The Big Blue Planet </i></div>
+            <button class="btn modal-btn" data-target="#modal8">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div>
 
-<!-- Footer Items -->
+     <div class="modal" id="modal9">
+        <div class="header">
+            <div class="title">Pluto - <i> The Dwarf Planet </i></div>
+            <button class="btn modal-btn" data-target="#modal9">&times;</button>
+        </div>
+        <div class="body">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Beatae, quos nulla similique 
+            fuga amet voluptatem tempora debitis libero alias odit 
+            ut expedita a quisquam maiores eaque hic aperiam dolore
+            velit quo inventore itaque sunt facilis sint provident! 
+        </div>
+     </div> </div>
+<div class="buttons">
+<div class="row">
+    <div class="column">
+       <button class="btn" data-target="#modal1"><img src="Mercury.png" alt="Planet Mercury" style="width:100%"> Mercury</button>
+    </div>
+    <div class="column">
+        <button class="btn" data-target="#modal2"><img src="Venus.png" alt="Planet Venus" style="width:100%"> Venus </button>
+    </div>
+    <div class="column">
+        <button class="btn" data-target="#modal3"><img src="Earth.png" alt="Planet Earth" style="width:100%"> Earth </button>
+    </div> </div>
+<div class="row">
+    <div class="column">
+        <button class="btn" data-target="#modal4"><img src="Mars.png" alt="Planet Mars" style=width:100%> Mars </button>
+    </div>
+    <div class="column">
+        <button class="btn" data-target="#modal5"><img src="Jupiter.png" alt="Planet Jupiter" style="width:100%"> Jupiter</button>
+    </div>
+    <div class="column">
+        <button class="btn" data-target="#modal6"><img src="Saturn.png" alt="Planet Saturn" id= "rings" style="width:100%"> Saturn</button>
+    </div> </div>
+    <div class="row">
+    <div class="column">
+        <button class="btn" data-target="#modal7"><img src="Uranus.png" alt="Planet Uranus" style="width:100%"> Uranus</button>
+    </div>
+    <div class="column">
+        <button class="btn" data-target="#modal8"><img src="Neptune.png" alt="Planet Neptune" id= "rings" style="width:100%"> Neptune</button>
+    </div>
+    <div class="column" id="pluto">
+        <button class="btn" data-target="#modal9"><img src="Pluto.png" alt="Dwarf Planet Pluto" style="width:100%"> Pluto</button> 
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+
 <footer>
   <div class="footer">
       <a href="aboutUs.html">
@@ -138,6 +197,10 @@
   <div class="copyright">
       Made with ❤️ by Group 5 | All Rights Reserved®
   </div>
+  <div id="overlay"></div>
+  <script src="script.js"></script>
 </footer>
 
+</html>
+ </body>
 </html>
