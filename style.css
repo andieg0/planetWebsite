@@ -65,7 +65,7 @@
   align-items: center;
   padding-bottom: 1px;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
 }
 
 .modal.active{
@@ -110,7 +110,6 @@
 }
 
 #rings {
-
   scale: 170%;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -188,7 +187,7 @@ body {
   margin-left: 365px;
   position: relative;
   top: 50%;
-  transform: translateY(3190%);
+  transform: translateY(3450%);
 }
 
 header {
