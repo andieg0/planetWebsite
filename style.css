@@ -1,4 +1,16 @@
 
+h2 {text-align: center;
+    color: white}
+h3 {text-align: center;
+    color:#fff;
+  font-family: 'Fahkwang' sans-serif;}
+table, th, td{
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin-left: auto; margin-right: auto;
+  color:#fff;
+
+}
 
 #logo {
   display: block;
@@ -8,6 +20,15 @@
   width: 9%;
 }
 
+.hyperlink {
+  color: white;
+  font-family: 'Fahkwang' sans-serif;
+}
+
+.title{
+  color: white;
+  font-family: 'Fahkwang' sans-serif;
+}
 /* modal stuff */
 
 
@@ -27,10 +48,33 @@
   z-index: inherit;
 }
 
+.closebtn  {
+  background-color: transparent;
+  border: transparent;
+  font-family: 'Fahkwang', sans-serif;
+  color: grey;
+  padding: 10px 13px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 1px;
+  margin-top: 0%;
+  cursor: pointer;
+  float: right;
+  transform: translateY(-25%);
+  z-index: inherit;
+}
+
+
 .btn:hover {
   background-color: rgba(255, 140, 0, 0.7);
   
 }
+
+.closebtn:hover  {
+  color: black;
+  
+}
+
 
 .buttons {
   position: absolute;
@@ -52,9 +96,9 @@
   transform: translate(-50%, -50%);
   transition: top 0.5s ease-in-out;
   border: 1px solid #ccc;
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Roboto', monospace;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: darkorange;
   z-index: 9;
 
 }
@@ -66,10 +110,15 @@
   padding-bottom: 1px;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid #ccc;
+  font-family: 'Fahkwang' 'sans-serif';
+}
+
+.title {
+  font-family: 'Fahkwang' 'sans-serif';
 }
 
 .modal.active{
-  top: 20%;
+  top: 50%;
 
 }
 
@@ -137,7 +186,7 @@ body {
     text-align:center;
     margin: 0;
     margin-top: 1px;
-    transform: translateY(-50%);
+    transform: translateY(-11%);
     padding: auto
 }
 
@@ -149,7 +198,7 @@ body {
     color:white;
     text-align:center;
     padding: 1px;
-    transform: translateY(-140%);
+    transform: translateY(-100%);
   }
 
 
@@ -176,7 +225,7 @@ body {
 }
 
 .footerButton:hover {
-  background-color: darkorange;
+  background-color: rgba(255, 140, 0, 0.7);
 }
 
 .copyright {
@@ -188,11 +237,12 @@ body {
   margin-left: 365px;
   position: relative;
   top: 50%;
-  transform: translateY(3450%);
+  transform: translateY(3190%);
 }
 
 header {
   padding-top: 1px;
+  
 }
 
 

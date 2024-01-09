@@ -3,8 +3,8 @@
  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content=" width-device-with, inital-scale-1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>The Solar System</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&family=Luckiest+Guy&family=Roboto&display=swap" rel="stylesheet">
@@ -26,867 +26,254 @@
      <div class="modal" id="modal1">
         <div class="header">
             <div class="title">Mercury - <i>The Swift Planet</i></div>
-            <button class="btn modal-btn" data-target="#modal1">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal1">&times;</button>
         </div>
         <div class="body">
-           <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>MERCURY</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h2 {text-align: center;}
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-<article>
-    <h2> THE SOLAR SYSTEM </h2>
-</article>
-<article> Facts <span id="dots">...  
-    <table>
-<tr>
-  <td>Formation: </td>
-  <td>4.6 billion years ago</td> 
-</tr>
-<tr>
-  <td>It has:</td>
-  <td>
-    <ul>
-      <li> one star;</li>
-      <li> eight planets;</li>
-      <li> five officially recognized dwarf planets;</li>
-      <li> at least 290 moons.</li>
-      <li> more than 1.3 million asteroids;</li>
-      <li>about 3,900 comets.</li>
-    </ul>
-  </td>
-</tr>
-<tr>
-  <td>Location:</td>
-  <td> Orion Spur - an outer spiral arm of the Milky Way Galaxy.</td>
-</tr>
-<tr>
-  <td>Speed:</td>
-  <td>It orbits the center of the galaxy at about 515,000 mph (828,000 kph).</td>
-</tr>
-<tr>
-  <td>Orbit Duration:</td>
-  <td>about 230 million years.</td>
-</tr>
-<tr>
-  <td>Explore more: </td>
-  <td> <a href="https://eyes.nasa.gov/apps/solar-system/#/home"> See the Solar System </a> </td>
-</tr>
-</table> 
-  </span><span id="more">
-</span></article>
-<button onclick="myFunction()" id="myBtn">Read more</button>
-
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
-<article>
-    <h3> MERCURY </h3>
-</article>
-    <article>
-    <table>
-      <tr>
-        <td>Name Origin: </td>
-        <td>Named after the fastest of the ancient Roman gods.</td> 
-      </tr>
-      <tr>
-        <td>Size:</td>
-        <td> 3,032 miles (4,879 kilometers)</td>
-      </tr>
-      <tr>
-        <td>Type:</td>
-        <td>Terrestrial</td>
-      </tr>
-      <tr>
-        <td>Mean Temperature: </td>
-        <td>333°F (167°C)</td>
-      </tr>
-      <tr>
-        <td>Distance from the Sun: </td>
-        <td>average distance of 36 million miles (58 million kilometers).</td> 
-      </tr>
-      <tr>
-        <td>Orbit Duration: </td>
-        <td>88 Earth Days</td> 
-      </tr>
-      <tr>
-        <td>Day Duration::</td>
-        <td>59 Earth days</td>
-      </tr>
-      <tr>
-        <td>Speed: </td>
-        <td>29.4 miles (47.4 kilometers) per second.</td>
-      </tr>
-      <tr>
-        <td> Other Facts: </td>
-        <td>
-          <ul>
-            <li> Mercury is the nearest to the Sun planet.</li>
-            <li> It is the smallest planet in the Solar System.</li>
-            <li> It is the fastest planet.</li>
-            <li> It is the second densest planet after the Earth: 85% of its radius is taken by a big metallic core.</li>
-            <li> It orbits almost upright around the Sun.</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-</article> 
-</body>
-</html>
-
+            <table class="modaltable">
+                <tr>
+                  <td> Other Facts: </td>
+                  <td>
+                    <ul>
+                      <li> Mercury is the nearest to the Sun planet.</li>
+                      <li> It is the smallest planet in the Solar System.</li>
+                      <li> It is the fastest planet.</li>
+                      <li> It is the second densest planet after the Earth: 85% of its 
+          radius is taken by a big metallic core.</li>
+                      <li> It orbits almost upright around the Sun.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <a class="hyperlink" href="mercury.html">More</a>
         </div>
      </div>
     
      <div class="modal" id="modal2">
         <div class="header">
             <div class="title">Venus - <i> Morning and Evening Star </i></div>
-            <button class="btn modal-btn" data-target="#modal2">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal2">&times;</button>
         </div>
         <div class="body">
-            <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>VENUS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-        <article>
-            <h3> VENUS </h3>
-        </article>
-            <article>
-            <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Named after the ancient Roman goddess of Love and beauty.</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 7,521 miles (12,104 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Terrestrial</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td>867°F (464°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>average distance of 67.2 million miles (108.2 million kilometers).</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>224.7 Earth days</td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>243 Earth days</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>21.8 miles (35.0 kilometers) per second.</td>
-              </tr>
-              <tr>
+           <table><tr>
                 <td> Other Facts: </td>
                 <td>
                   <ul>
-                    <li> Venus spins slowly in the opposite direction from most planets.</li>
-                    <li> It the hottest planet in our solar system because of its thick atmosphere.</li>
+                    <li> Venus spins slowly in the opposite direction from most 
+planets.</li>
+                    <li> It the hottest planet in our solar system because of its 
+thick atmosphere.</li>
                     <li> It is the only planet named after a female god.</li>
-                    <li> At Earth, Venus is seen to be the brightest object in the night sky after the Moon. They both have phases – full, half, quarter, etc. but Venus completes the cycle for 584 Earth days.</li>
-                    <li> It has an induced magnetic field, not internally generated.</li>
+                    <li> At Earth, Venus is seen to be the brightest object in the 
+night sky after the Moon. They both have phases – full, half, quarter, etc. 
+but Venus completes the cycle for 584 Earth days.</li>
+                    <li> It has an induced magnetic field, not internally 
+generated.</li>
                   </ul>
                 </td>
-              </tr>
-            </table>
-        </article> 
-        </body>
-        </html>
-        
+              </tr> </table> 
+              <a class="hyperlink" href="venus.html">More</a>
         </div>
      </div>
 
      <div class="modal" id="modal3">
         <div class="header">
             <div class="title">Earth - <i> The Blue Planet </i></div>
-            <button class="btn modal-btn" data-target="#modal3">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal3">&times;</button>
         </div>
         <div class="body">
-           <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>EARTH</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-        <article>
-            <h3> Earth </h3>
-        </article>
-            <article>
             <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Comes from Germanic word, meaning “the ground.”.</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 7,926 miles (12,756 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Terrestrial</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td>59°F (15°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>93 million miles (150 million kilometers)</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>365.25 Earth Days</td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>23.9 hours</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>18.5 miles (29.8 kilometers) per second</td>
-              </tr>
-              <tr>
-                <td> Other Facts: </td>
-                <td>
-                  <ul>
-                    <li> Earth is the biggest of the terrestrial planets and the fifth largest planet overall.</li>
-                    <li> Earth is the only planet that has a single moon. </li>
-                    <li> It the only planet in the Solar System with liquid water on the surface.</li>
-                    <li> The only known place so far with population of living things.</li>
-                    <li> Magnetic polarity of Earth can reverse at about every 400,000 years on average without harming life on the planet.</li>
-                    <li><a href="https://www.google.com/earth/"> Explore the Earth </a> </li>
-                  </ul>
-                </td>
-              </tr>
+                <tr>
+                    <td> Other Facts: </td>
+                    <td>
+                      <ul>
+                        <li> Earth is the biggest of the terrestrial planets and the 
+    fifth largest planet overall.</li>
+                        <li> Earth is the only planet that has a single moon. </li>
+                        <li> It the only planet in the Solar System with liquid water 
+    on the surface.</li>
+                        <li> The only known place so far with population of living 
+    things.</li>
+                        <li> Magnetic polarity of Earth can reverse at about every 
+    400,000 years on average without harming life on the planet.</li>
+                        <li><a href="https://www.google.com/earth/"> Explore the 
+    Earth </a> </li>
+                      </ul>
+                    </td>
+                  </tr>
             </table>
-        </article> 
-        </body>
-        </html>
-        
+            <a class="hyperlink" href="earth.html">More</a>
         </div>
      </div>
   
      <div class="modal" id="modal4">
         <div class="header">
             <div class="title">Mars - <i> The Red Planet </i></div>
-            <button class="btn modal-btn" data-target="#modal4">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal4">&times;</button>
         </div>
         <div class="body">
-            <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>MARS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-        <article>
-            <h3> MARS </h3>
-        </article>
-            <article>
             <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Named after the Roman god of war because of its red colour is associated with blood.</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 4,221 miles (6,792 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Terrestrial</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td>- 85°F (-65°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>142 million miles (228 million kilometers)</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>687 Earth Days</td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>24.6 hours</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>15.0 miles (24.1 kilometers) per second.</td>
-              </tr>
-              <tr>
                 <td> Other Facts: </td>
                 <td>
                   <ul>
-                    <li> Mars has two small moons - Phobos and Deimos, looking like potatoes.</li>
-                    <li> Mars can easily be spotted in the night sky because of its red colour.</li>
-                    <li> It is one of the most explored bodies in the Solar System.</li>
-                    <li> It has the largest volcano in the Solar System, Olympus Mons - three times taller than Earth's Mt. Everest.</li>
-                    <li> It has no global magnetic field now but parts of its southern hemisphere show traces of a magnetic field from 4 billion years ago.</li>
+                    <li> Mars has two small moons - Phobos and Deimos, looking
+like potatoes.</li>
+                    <li> Mars can easily be spotted in the night sky because of 
+its red colour.</li>
+                    <li> It is one of the most explored bodies in the Solar 
+System.</li>
+                    <li> It has the largest volcano in the Solar System, Olympus 
+Mons - three times taller than Earth's Mt. Everest.</li>
+                    <li> It has no global magnetic field now but parts of its 
+southern hemisphere show traces of a magnetic field from 4 billion years 
+ago.</li>
                   </ul>
                 </td>
               </tr>
             </table>
-        </article> 
-        </body>
-        </html>
-       
-
+            <a class="hyperlink" href="mars.html">More</a>
         </div>
      </div>
  
      <div class="modal" id="modal5">
         <div class="header">
             <div class="title">Jupiter - <i> The Gas Giant</i></div>
-            <button class="btn modal-btn" data-target="#modal5">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal5">&times;</button>
         </div>
         <div class="body">
-            <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>JUPITER</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-     
-    </style>
-    <body>
-        <article>
-            <h3> JUPITER</h3>
-        </article>
-           
-            <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Named after the King of the ancient Roman gods</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 88,846 miles (142,984 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Gas Giant</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td>- 166°F (-110°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>484 million miles (778 million kilometers)</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>11.86 Earth years</td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>9.93 hours</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>8.1 miles (13.1 kilometers) per second.</td>
-              </tr>
-              <tr>
+           <table>
+            <tr>
                 <td> Other Facts: </td>
                 <td>
                   <ul>
                     <li> Jupiter is the largest planet in the Solar System.</li>
                     <li> It has the shortest day in the Solar System.</li>
-                    <li> Its enormous magnetic field is 16 to 54 times more powerful than that of the Earth.</li>
-                    <li> It has the largest ocean in the Solar System which is made of hydrogen instead of water.</li>
-                    <li> It has 95 officially recognized moons and faint ring system.</li>
+                    <li> Its enormous magnetic field is 16 to 54 times more 
+powerful than that of the Earth.</li>
+                    <li> It has the largest ocean in the Solar System which is 
+made of hydrogen instead of water.</li>
+                    <li> It has 95 officially recognized moons and faint ring 
+system.</li>
                   </ul>
                 </td>
               </tr>
-            </table>
-        </article> 
-       
-        </body>
-        </html>
-       
+           </table>
+           <a class="hyperlink" href="jupiter.html">More</a>
         </div>
      </div>
 
      <div class="modal" id="modal6">
         <div class="header">
             <div class="title">Saturn - <i> The Ringed Planet </i></div>
-            <button class="btn modal-btn" data-target="#modal6">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal6">&times;</button>
         </div>
         <div class="body">
-            <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>SATURN</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-        <article>
-            <h3>SATURN </h3>
-        </article>
-            <article>
             <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Named after the Roman god of agriculture and wealth - Jupiter's father.</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 74,897 miles (120,536 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Gas Giant</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td> - 220°F (-140°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>886 million miles (1.4 billion kilometers).</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>29.4 Earth years </td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>10.7 hours</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>6.0 miles (9.7 kilometers) per second.</td>
-              </tr>
-              <tr>
-                <td> Other Facts: </td>
-                <td>
-                  <ul>
-                    <li> Saturn is the furthest planet in the Solar System that can be seen by the unaided human eye from Earth.</li>
-                    <li> As of June 8, 2023, Saturn has 146 officially confirmed moons in its orbit.</li>
-                    <li> It has spectacular ring system where each ring orbits at a different speed around the planet..</li>
-                    <li> Saturn's north pole has an interesting atmospheric feature – a six-sided jet stream.</li>
-                    <li> It is the only planet in the Solar System with an average density that is less than water.</li>
-                  </ul>
-                </td>
-              </tr>
+                <tr>
+                    <td> Other Facts: </td>
+                    <td>
+                      <ul>
+                        <li> Saturn is the furthest planet in the Solar System that 
+    can be seen by the unaided human eye from Earth.</li>
+                        <li> As of June 8, 2023, Saturn has 146 officially confirmed 
+    moons in its orbit.</li>
+                        <li> It has spectacular ring system where each ring orbits at 
+    a different speed around the planet..</li>
+                        <li> Saturn's north pole has an interesting atmospheric 
+    feature – a six-sided jet stream.</li>
+                        <li> It is the only planet in the Solar System with an average 
+    density that is less than water.</li>
+                      </ul>
+                    </td>
+                  </tr>
             </table>
-        </article> 
-        </body>
-        </html>
-
-
+            <a class="hyperlink" href="saturn.html">More</a>
         </div>
      </div>
 
      <div class="modal" id="modal7">
         <div class="header">
             <div class="title">Uranus - <i> The Bull's Eye </i></div>
-            <button class="btn modal-btn" data-target="#modal3">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal3">&times;</button>
         </div>
         <div class="body">
-           <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>URANUS</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-        <article>
-            <h3> URANUS </h3>
-        </article>
-            <article>
-            <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Named after the Greek god of the sky - the father of Kronos (or Saturn in Roman mythology).</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 31,763 miles (51,118 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Ice Giant</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td>- 320°F (-195°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>1.8 billion miles (2.9 billion kilometers).</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>84 Earth Days</td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>17 hours and 14 minutes</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>4.2 miles (6.8 kilometers) per second.</td>
-              </tr>
-              <tr>
+           <table>
+            <tr>
                 <td> Other Facts: </td>
                 <td>
                   <ul>
-                    <li> Uranus was the first planet discovered with the aid of a telescope. .</li>
-                    <li> It is surrounded by 13 faint rings and 27 small moons..</li>
-                    <li> It is the only planet whose equator has a tilt of 97.77 degrees to its orbit and seems to rotate sideways.</li>
-                    <li> Due to its unique tilt Uranus has the most extreme seasons in the Solar System. The Sun shines directly over one of the poles for almost 21 Earth years, while the other half of the planet is covered by a dark winter.</li>
-                    <li> It rotates in the opposite direction than most of the planets.</li>
+                    <li> Uranus was the first planet discovered with the aid of a 
+telescope. .</li>
+                    <li> It is surrounded by 13 faint rings and 27 small 
+moons..</li>
+                    <li> It is the only planet whose equator has a tilt of 97.77 
+degrees to its orbit and seems to rotate sideways.</li>
+                    <li> Due to its unique tilt Uranus has the most extreme 
+seasons in the Solar System. The Sun shines directly over one of the poles
+for almost 21 Earth years, while the other half of the planet is covered by 
+a dark winter.</li>
+                    <li> It rotates in the opposite direction than most of the 
+planets.</li>
                   </ul>
                 </td>
               </tr>
-            </table>
-        </article> 
-        </body>
-        </html>
-        
+           </table>
+           <a class="hyperlink" href="uranus.html">More</a>
         </div>
      </div>
   
      <div class="modal" id="modal8">
         <div class="header">
             <div class="title">Neptune - <i> The Big Blue Planet </i></div>
-            <button class="btn modal-btn" data-target="#modal8">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal8">&times;</button>
         </div>
         <div class="body">
-           <!DOCTYPE html>
-<html lang="eng-GB">
-  <html>
-    <head>
-        <title>NEPTUNE</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      </head>
-    <style>
-      h3 {text-align: center;}
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        margin-left: auto; margin-right: auto;
-      }
-    </style>
-    <body>
-        <article>
-            <h3> NEPTUNE </h3>
-        </article>
-            <article>
-            <table>
-              <tr>
-                <td>Name Origin: </td>
-                <td>Named after the Roman god of the sea.</td> 
-              </tr>
-              <tr>
-                <td>Size:</td>
-                <td> 30,775 miles (49,528 kilometers) </td>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Ice Giant</td>
-              </tr>
-              <tr>
-                <td>Mean Temperature: </td>
-                <td>-330°F (-200°C)</td>
-              </tr>
-              <tr>
-                <td>Distance from the Sun: </td>
-                <td>2.8 billion miles (4.5 billion kilometers).</td> 
-              </tr>
-              <tr>
-                <td>Orbit Duration: </td>
-                <td>165 Earth Years</td> 
-              </tr>
-              <tr>
-                <td>Day Duration::</td>
-                <td>16 hours</td>
-              </tr>
-              <tr>
-                <td>Speed: </td>
-                <td>3.4 miles (5.4 kilometers) per second.</td>
-              </tr>
-              <tr>
+           <table>
+            <tr>
                 <td> Other Facts: </td>
                 <td>
                   <ul>
-                    <li> Neptune is the first planet located through mathematical calculations.</li>
-                    <li> It is the only planet in our solar system not visible to the unaided human eye.</li>
+                    <li> Neptune is the first planet located through mathematical
+calculations.</li>
+                    <li> It is the only planet in our solar system not visible to the 
+unaided human eye.</li>
                     <li> It is the furthest planet in the Solar System.</li>
                     <li> It has 14 known moons.</li>
-                    <li> Neptune has at least five main rings and four prominent ring arcs.</li>
-                    <li> Neptune is the Solar System's windiest world. The wind speed can reach more than 1,200 miles per hour (2,000 kilometers per hour).</li>
+                    <li> Neptune has at least five main rings and four prominent 
+ring arcs.</li>
+                    <li> Neptune is the Solar System's windiest world. The wind 
+speed can reach more than 1,200 miles per hour (2,000 kilometers per 
+hour).</li>
                     <li> Neptune is the densest one of the giant planets.</li>
                   </ul>
                 </td>
               </tr>
-            </table>
-        </article> 
-        </body>
-        </html>
-       
+           </table>
+           <a class="hyperlink" href="neptune.html">More</a>
         </div>
      </div>
 
      <div class="modal" id="modal9">
         <div class="header">
             <div class="title">Pluto - <i> The Dwarf Planet </i></div>
-            <button class="btn modal-btn" data-target="#modal9">&times;</button>
+            <button class="closebtn modal-btn" data-target="#modal9">&times;</button>
         </div>
         <div class="body">
-           <!DOCTYPE html> 
-<html lang="eng-GB">
-  <head>
-    <title>PLUTO AND DWARF PLANETS AND THE SUN</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-<style>
-  h2 {text-align: center;}
-  table, th,td{
-    border:1px solid black;
-    border-collapse:collapse;
-    text-align: left;
-  }
-  img {
-    width: 100%;
-  }
-</style>
-<main>
-    <article> 
-        <h2> PLUTO AND DWARF PLANETS</h2>
-    </article>
-    <article>
-        <img src="images/dwarf-planets.jpg.webp" alt="Pluto and Dwarf Planets"> 
-    </article>
-  </main>
-    <body> </body>
-    <article> 
-        <p> <table>
-            <thead>
-              <tr>
-                <th> NAME: </th>
-                <th> PLUTO: </th>
-                <th> CERES: </th>
-                <th> MAKEMAKE: </th>
-                <th> HAUMEA: </th>
-                <th> ERIS: </th>
-              </tr>
-            </thead>
-            <tbody>
-              
-                <tr>
-              
-                <td> Name origin: </td> 
-               <td> Named after the Roman god of the underworld </td>
-               <td> Named after the Roman goddess of corn and harvests</td>
-               <td> Named after the Rapanui god of fertility </td>
-               <td> Named after the Hawaiian goddess of fertility </td>
-               <td> Named after the ancient Greek goddess of discord and strife </td>
-              
-               </tr>
-              
-             
-              <tr>
-                <td>  Location: </td>
-                <td> In the Kuiper Belt beyond Neptune’s orbit </td>
-                <td> in the asteroid belt between Mars and Jupiter </td>
-                <td> In the Kuiper Belt beyond Neptune’s orbit </td>
-                <td> In the Kuiper Belt beyond Neptune’s orbit </td>
-                <td> In the Kuiper Belt beyond Neptune’s orbit </td>
-              </tr>
-              <tr>
-               <td> Size: </td>
-               <td> With a radius of 715 miles (1,151 kilometers)</td>
-               <td> radius of 296 miles (476 kilometers) </td>
-               <td> radius of approximately 444 miles (715 kilometers)</td>
-               <td> radius of approximately 385 miles (620  kilometers) </td>
-               <td> radius of about 722 miles (1,163 kilometers) </td>
-              </tr>
-              <tr>
-               <td> Temperature:  </td>
-               <td> as cold as -375 to -400 degrees Fahrenheit (-226 to -240 degrees Celsius). </td>
-               <td> </td>
-               <td> </td>
-               <td> </td>
-               <td> Varies from -359 degrees Fahrenheit (-217 degrees Celsius) to -405 degrees Fahrenheit (-243 degrees Celsius).</td>
-              </tr>
-              <tr>
-               <td> Distance from Sun </td>
-               <td> 3.7 billion miles (5.9 billion kilometers) </td>
-               <td> 257 million miles (413 million kilometers) </td>
-               <td> 4,253,000,000 miles (6,847,000,000 kilometers) </td>
-               <td> 4,010,000,000 miles (6,452,000,000 kilometers) </td>
-               <td> 6,289,000,000 miles (10,125,000,000 kilometers) </td>
-              </tr>
-              <tr>
-                <td> Orbit Duration: </td>
-                <td> 248 Earth years </td>
-                <td> 4.6 Earth years </td>
-                <td> 305.34 Earth years </td>
-                <td> 285 Earth years </td>
-                <td> 557 Earth years </td>
-
-              </tr>
-              <tr>
-                <td> Day Duration: </td>
-                <td> 153 hours </td>
-                <td> 9 hours </td>
-                <td>  22.48 hours </td>
-                <td> 4 hours </td>
-                <td> 25.9 hours </td>
-              </tr>
-              <tr>
-                <td> Other Facts:  </td>
-                <td>
-                    <ul> 
-                        <li> It is the only planet named by an 11-year-old girl </li>
-                        <li> It has five known moons: Charon, Nix, Hydra, Kerberos, and Styx. </li>
-                        <li> its axis of rotation is tilted 57 degrees against it so it spins nearly sideways. </li>
-                        <li> Pluto's orbit around the Sun is oval and makes it switch places with Neptune for 20 years every 248 Earth years. </li>	
-                        <li> It has heart-shaped glacier. </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul> 
-                        <li> It is the largest object in the asteroid belt between Mars and Jupiter. </li>
-                        <li> Ceres is the only dwarf planet located in the inner solar system. </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul> 
-                        <li> Makemake is the second-brightest object in the Kuiper Belt as seen from Earth while Pluto is the brightest.</li>
-                        <li> Makemake has one provisional moon, nicknamed MK 2. </li>
-                    </ul>
-                </td>
-                <td> 
-                    <ul> 
-                        <li> It is one of the fastest rotating large objects in our solar system. </li>
-                        <li> Haumea is the first known Kuiper Belt Object to have rings. </li>
-                        <li> It has oval shape. </li>
-                        <li> Haumea has two known moons: Namaka is the inner moon, and Hi'iaka is the outer moon. </li>
-                    </ul> 
-                </td>
-                <td>
-                    <ul> 
-                        <li> One of the biggest known dwarf planets in the Solar System. </li>
-                        <li> Debate after its discovery caused Pluto to be reclassified as a dwarf planet.</li>
-                        <li> Eris has a very small moon called Dysnomia. </li>
-                    </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-            </p>
-    </article>
-   
-    <a href="The Sun.html">Next</a>
-    
-  </body>
-</html>
+           <table>
+            <td> Other Facts:  </td>
+            <td>
+                <ul> 
+                    <li> It is the only planet named by an 11-year-old girl </li>
+                    <li> It has five known moons: Charon, Nix, Hydra, 
+Kerberos, and Styx. </li>
+                    <li> its axis of rotation is tilted 57 degrees against it so it 
+spins nearly sideways. </li>
+                    <li> Pluto's orbit around the Sun is oval and makes it 
+switch places with Neptune for 20 years every 248 Earth years. </li> 
+                    <li> It has heart-shaped glacier. </li>
+                </ul>
+            </td>
+           </table>
+           <a href="pluto.html">More</a>
         </div>
      </div> </div>
 <div class="buttons">
@@ -942,5 +329,6 @@ function myFunction() {
   <script src="script.js"></script>
 </footer>
 
+</html>
  </body>
 </html>
