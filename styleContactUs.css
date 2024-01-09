@@ -163,7 +163,7 @@ input[type=text], select, textarea {
   }
 
   .footerButton:hover {
-    background-color: darkorange;
+    background-color:  rgba(255, 140, 0, 0.7);
   }
 
   .copyright {
