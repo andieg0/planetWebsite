@@ -137,7 +137,7 @@ body {
     text-align:center;
     margin: 0;
     margin-top: 1px;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
     padding: auto
 }
 
@@ -149,7 +149,7 @@ body {
     color:white;
     text-align:center;
     padding: 1px;
-    transform: translateY(-140%);
+    transform: translateY(-145%);
   }
 
 
@@ -193,7 +193,6 @@ body {
 
 header {
   padding-top: 1px;
-  
 }
 
 
