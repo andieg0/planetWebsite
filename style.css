@@ -176,7 +176,7 @@ body {
 }
 
 .footerButton:hover {
-  background-color: rgba(255, 140, 0, 0.7);
+  background-color: darkorange;
 }
 
 .copyright {
